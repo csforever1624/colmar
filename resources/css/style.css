@@ -1,0 +1,294 @@
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+main {
+  position: relative;
+  top: 4rem;
+}
+
+section:nth-child(2n+1) {
+  background-color: lightgrey;
+}
+
+a {
+  padding-left: 1rem;
+  color: purple;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  padding: 2rem 0;
+  color: #404040;
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: bold;
+  color: #404040;
+}
+
+h5, footer span {
+  font-size: 0.8rem;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 1.35;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+  color: #4D4D4D;
+}
+
+/*Header*/
+
+header {
+  background-color: white;
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 10;
+}
+
+header img {
+  height: 3rem;
+  padding: 0 2% 0 1.5rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-bar {
+  color: darkgrey;
+}
+
+.title-bar span {
+  font-weight: bold;
+  color: black;
+}
+
+/*Navigation*/
+
+nav {
+  padding-right: 24px;
+  display: flex;
+  align-items: center;
+}
+
+/*Banner*/
+
+.side-text {
+  display: inline-flex;
+  flex-flow: column;
+  justify-content: space-between;
+  vertical-align: middle;
+  color: #4D4D4D;
+}
+
+.banner img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 60%;
+  margin: 2rem 2.5rem 2rem 1.5rem;
+}
+
+.banner h3 {
+  margin: 1.5rem 0;
+}
+
+.banner .side-text {
+  width: 30%;
+  box-sizing: border-box;
+}
+
+.banner .side-text h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.banner .side-text h3 {
+  font-size: 2rem;
+}
+
+/*Start button*/
+
+.start {
+  width: 90%;
+  background-color: #4D4D4D;
+  color: #CCD9FF;
+  font-size: 1.5rem;
+  padding: 1.5rem;
+  text-align: center;
+  transition: red 400ms, background-color 400ms;
+  font-weight: bold;
+}
+
+.start:hover {
+  background-color: #668CFF;
+  color:
+}
+
+.information .content-box:last-child, .thesis .content-box:first-child {
+  background-color: lightgrey;
+}
+
+.multi-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.main-box {
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+.main-box img, video {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.main-box h2 {
+  padding: 0 0 1.5rem 0;
+}
+
+
+.stacked-content-box {
+  display: flex;
+  flex-flow: column;
+  vertical-align: top;
+  margin-top: 0.5rem;
+  width: 35%;
+}
+
+.content-box img {
+  display: inline-block;
+  width: 35%;
+  margin: 3.5%;
+  vertical-align: middle;
+}
+
+.content-box .side-text {
+  width: 56%;
+}
+
+.content-box .side-text h3 {
+  font-size: 2rem;
+}
+
+.information .main-box h2 {
+  font-size: 3.5rem;
+  color: #4D4D4D;
+  margin: 32px;
+}
+
+.information .main-box p {
+  color: #4D4D4D;
+  margin: 24px;
+}
+
+.information .main-box h5 {
+  font-size: 1.4rem;
+  color: #404040;
+  margin: 32px;
+}
+
+.content-box a {
+  color: #668CFF;
+}
+
+.thesis .main-box {
+  padding: 1rem 1rem 1.5rem 1.5rem;
+}
+
+/*Courses*/
+
+.classes {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+}
+
+.classes h2 {
+  font-size: 3.5rem;
+  color: #404040;
+  margin: 32px;
+}
+
+.course-container {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.course-box {
+  width: 30%;
+  height: auto;
+  margin: 0 32px 1rem 0.5rem;
+  background-color: white;
+}
+
+.classes h2, .thesis h2 {
+  text-align: center;
+}
+
+.course-box img {
+  width: 100%;
+}
+
+.course-box h3 {
+  margin-left: 16px;
+}
+
+.course-box p{
+  margin: 8px 16px;
+  line-height: 2.5rem;
+}
+
+.course-text {
+  padding: 1rem 0 0 1rem;
+  margin: 1.5rem auto;
+}
+
+footer {
+  display: flex;
+  background-color: white;
+  border-top: 1px solid lightgrey;
+  justify-content: space-between;
+  position: relative;
+  top: 4rem;
+  width: 100%;
+}
+
+footer h5 {
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+footer nav {
+  align-items: auto;
+  padding-top: 1rem;
+}
+
+footer span {
+  padding-left: 1rem;
+}
